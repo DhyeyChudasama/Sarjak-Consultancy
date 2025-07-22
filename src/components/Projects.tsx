@@ -178,6 +178,7 @@ const Projects: React.FC = () => {
                       }}
                     />
                     <button
+                      aria-label="Close"
                       onClick={() => setSelectedProject(null)}
                       className="absolute top-4 right-4 bg-white bg-opacity-90 rounded-full p-2 hover:bg-opacity-100 transition-colors"
                     >
